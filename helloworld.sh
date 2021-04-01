@@ -1,6 +1,11 @@
 #!/bin/bash
 
 echo "begin"
+
+pwd
+whoami
+w
+
 echo "Hello World"
 
 echo "Hello World" > "out1"
