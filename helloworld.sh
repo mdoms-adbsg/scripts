@@ -2,9 +2,9 @@
 
 echo "# Checking Variables"
 if [ -z "$1" ]; then
-    echo "Hello World: $1"
+    echo "Hello World: no parameter <$1>"
 else
-    echo "Hello World: no parameter"
+    echo "Hello World: $1"
 fi
 
 pwd
